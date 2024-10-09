@@ -103,3 +103,41 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+
+/* Dark Mode Styling */
+body.dark-mode {
+    background-color: #222; /* Dark background */
+    color: #ddd; /* Light text color */
+}
+
+.dark-mode header {
+    background: #333; /* Dark header */
+}
+
+.dark-mode nav ul li a {
+    color: #fff; /* Light text for navigation links */
+}
+
+.dark-mode .section {
+    background: #333; /* Dark background for sections */
+    color: #ddd; /* Light text color for sections */
+}
+
+.dark-mode .progress {
+    background: #555; /* Dark progress bar background */
+}
+
+.dark-mode .progress-bar {
+    background: #007bff; /* Bright progress bar for better visibility */
+}
+
+.dark-mode .project-card {
+    background: #444; /* Dark background for project cards */
+    color: #ddd; /* Light text for project cards */
+    border: 1px solid #666; /* Slightly lighter border */
+}
+
+.dark-mode footer {
+    background: #333; /* Dark footer */
+    color: #ddd; /* Light text for footer */
+}
