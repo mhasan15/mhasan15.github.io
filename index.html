@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Muhammad Hasan's Portfolio">
     <meta name="author" content="Muhammad Hasan">
-    <title>Muhammad Hasan | Instructor & Researcher</title>
+    <title>Muhammad Hasan | University Instructor</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/jpg" href="hasan.jpg"> <!-- Favicon -->
 </head>
 <body>
     <!-- Header -->
-    <header>
+    <header id="header">
         <div class="container">
             <h1>Muhammad Hasan</h1>
-            <p>Instructor at FAST-NUCES | MS in Computer Science</p>
+            <p>University Instructor | Researcher | Web Developer</p>
             <nav>
                 <ul>
                     <li><a href="#about">About Me</a></li>
@@ -30,7 +31,7 @@
     <section id="about" class="section">
         <div class="container">
             <h2>About Me</h2>
-            <p>Hello, I am Muhammad Hasan, an experienced instructor specializing in Computer Science with a passion for teaching and research. I hold an MS in Computer Science from UET Lahore, and I have taught at FAST-NUCES and Superior University.</p>
+            <p>I am Muhammad Hasan, an experienced instructor with a passion for teaching and technology. With expertise in Computer Science, I specialize in web development, programming, and research.</p>
         </div>
     </section>
 
@@ -47,17 +48,28 @@
         </div>
     </section>
 
-    <!-- Skills Section -->
+    <!-- Skills Section with Progress Bars -->
     <section id="skills" class="section">
         <div class="container">
             <h2>Skills</h2>
-            <ul>
-                <li>Programming: C++, Java, Python</li>
-                <li>Web Development: HTML, CSS, JavaScript, PHP</li>
-                <li>Database Management: SQL</li>
-                <li>Systems Engineering</li>
-                <li>Search Engine Optimization (SEO)</li>
-            </ul>
+            <div class="skill">
+                <p>HTML / CSS / JavaScript</p>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 90%;">90%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>Python / Java / C++</p>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 80%;">80%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>Database Management (SQL)</p>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 85%;">85%</div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -65,13 +77,20 @@
     <section id="projects" class="section">
         <div class="container">
             <h2>Projects</h2>
-            <ul>
-                <li>Hostel Management System</li>
-                <li>Survey Website</li>
-                <li>Dairy Management System</li>
-                <li>Compiler Construction Application</li>
-                <li>Railway Track Obstacle Detection using Sensors Network</li>
-            </ul>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Hostel Management System</h3>
+                    <p>Developed a comprehensive system for managing hostel facilities, rooms, and tenants.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Survey Website</h3>
+                    <p>Built an online survey platform with real-time analytics and data reporting.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Compiler Construction</h3>
+                    <p>A tool for constructing and analyzing compilers for programming languages.</p>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -90,5 +109,8 @@
             <p>&copy; 2024 Muhammad Hasan. All rights reserved.</p>
         </div>
     </footer>
+
+    <!-- JavaScript for Smooth Scroll and Dark Mode Toggle -->
+    <script src="script.js"></script>
 </body>
 </html>
