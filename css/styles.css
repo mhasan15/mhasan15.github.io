@@ -106,3 +106,9 @@ body {
     text-decoration: none;
     cursor: pointer;
 }
+
+#about .profile-img {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
